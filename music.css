@@ -97,7 +97,7 @@ body{
     background-color: #f3f3f3;
 }
 .nav-pic1{
-    left: 20%;
+    margin-left: 60px;
     width: 100px;
    
 }
@@ -105,7 +105,7 @@ body{
     width: 100px;
 }
 .nav-pic3{
-    right: 20%;
+    margin-right: 60px;
     width: 100px;
 }
 
