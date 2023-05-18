@@ -1,0 +1,113 @@
+
+.head{
+    display: flex;
+    row-gap: 1fr 1fr 1fr;
+    flex-direction: row;
+    text-align: center;
+    object-position: center;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(124, 124, 124);
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+
+   top: 0;
+   left: 0;
+   right: 0;
+   position: fixed;
+   background-color: white;
+}
+.logo{
+    width: 140px;
+}
+.logo-name{
+    margin-top: 10px;
+   font-size: 40px;
+   font-weight: 800;
+   font-family: arial;
+   margin-right: 40px;
+   
+
+   background: linear-gradient(to right, #d6400a, #c30c58, #583eb0, #76bdef);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.time{
+    font-size: 70px;
+   font-weight: 800;
+   font-family: arial;
+   margin-left: 20px;
+   
+
+   background: linear-gradient(to top, #d6400a, #583eb0, #76bdef);
+   -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+}
+.new-song{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.new-song-bannar{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.song-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    
+    
+}
+.song-type{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: helvetica;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.song-pic{
+    border-radius: 50px;
+    width: 350px;
+}
+.song-name{
+    font-family: arial;
+    font-weight: 510px;
+    font-size: 55px;
+}
+
+body{
+    top: 200px;
+    position: relative;
+    margin-bottom: 300px;
+}
+.navigations{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #f3f3f3;
+}
+.nav-pic1{
+    left: 20%;
+    width: 100px;
+   
+}
+.nav-pic2{
+    width: 100px;
+}
+.nav-pic3{
+    right: 20%;
+    width: 100px;
+}
+
+
+
